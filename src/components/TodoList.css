@@ -1,0 +1,86 @@
+*{
+   box-sizing: border-box;
+   background-color: aliceblue;
+
+}
+.container{
+    height:200;
+    background-color:rgb(7, 2, 71);
+   
+    width:50%;
+    padding:20px;
+    margin-left:25%;
+    margin-top:5%;
+    text-align: center;
+
+}
+.header{
+    background-color:rgb(7, 2, 71) ;
+    color:white;
+    position:relative;
+    bottom:15px;
+    font-size:30px;
+    font-weight:bold;
+}
+#btn1{
+    background-color:green;
+    border:none;
+    border-radius:2px;
+    height: 22px;
+    width:55px;
+    
+}
+input{
+    background-color: wheat;
+    border:none;
+    width:90%;
+    height:22px;
+    border-radius:2px;
+
+}
+.btn3{
+    background-color:green;
+    border:none;
+    border-radius:2px;
+    height: 30px;
+    
+
+}
+#btn2{
+    background-color:green;
+    border:none;
+    border-radius:2px;
+    height: 30px;
+    position:relative;
+    bottom:30px;
+    right:31px;
+  
+    
+
+}
+.List-rendering{
+    height:35px;
+    width:50%;
+    background-color:#008B8B;
+    font-size:22px;
+    font-weight:bold;
+    border-radius:4px;
+    text-align: start;
+
+}
+.listData{
+    background-color:#6495ED;
+    width:40%;
+    height:30px;
+    border:none;
+    border-radius:3px;
+    
+
+}
+.list-btn{
+    background-color:rgb(7, 2, 71);
+
+}
+.btn-position{
+    background-color: rgb(7, 2, 71);
+}
