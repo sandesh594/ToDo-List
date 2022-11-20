@@ -49,7 +49,7 @@ const TodoList=()=>{
             <input ref={refElement}  type={'text'} placeholder={'Add activity'} value={activity} onChange={(e)=>setActivity(e.target.value)}/>
             <button  id='btn1' onClick={addActivity}>Add</button>
             <p className="List-rendering">Here is your List :{')'}</p>
-            {listData!=[] && listData.map((data,i)=>{
+            {listData!==[] && listData.map((data,i)=>{
                 return(
                     <>
                     <p className="list-btn" key={i}>
